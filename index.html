@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rclone Google Drive backup — Home</title>
+    <meta
+      name="description"
+      content="Home page of a personal rclone OAuth client used to back up a single Google Drive account."
+    />
+    
+  <link rel="stylesheet" crossorigin href="./index-drq3w4km.css"><script type="module" crossorigin src="./index-bys7qr79.js"></script></head>
+  <body>
+    <main>
+      <header>
+        <h1>rclone Google Drive backup</h1>
+        <p class="muted">Personal, single-user backup tool — not a public service.</p>
+        <nav>
+          <a href="./">Home</a>
+          <a href="./privacy.html">Privacy policy</a>
+          <a href="./terms.html">Terms</a>
+        </nav>
+      </header>
+
+      <h2>What this is</h2>
+      <p>
+        This page is the application home page for a personal
+        <a href="https://rclone.org/">rclone</a> OAuth client. The client exists so that
+        <a href="https://github.com/fromFred">its owner</a> can back up their own Google Drive
+        to storage they control, using rclone from their own computer.
+      </p>
+
+      <h2>What it does</h2>
+      <ul>
+        <li>Reads files and metadata from the owner's Google Drive.</li>
+        <li>Copies them to a local disk or another storage location owned by the same person.</li>
+        <li>Runs only when the owner starts it manually (or via a scheduled job on their machine).</li>
+      </ul>
+
+      <h2>What it is not</h2>
+      <ul>
+        <li>It is not available to anyone other than the owner.</li>
+        <li>It has no server, no database, and no user accounts.</li>
+        <li>It does not sell, share, or analyse anyone's data.</li>
+      </ul>
+
+      <h2>Why this page exists</h2>
+      <p>
+        Google requires every OAuth application — even a private, single-user one — to publish a
+        home page and a privacy policy before the app can be used with a personal
+        <code>client_id</code>. This site fulfils that requirement, following the
+        <a href="https://rclone.org/drive/#making-your-own-client-id">rclone documentation</a>.
+      </p>
+
+      <footer>
+        <p>
+          Source: <a href="https://github.com/fromFred/backup-via-rclone-2026">fromFred/backup-via-rclone-2026</a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
